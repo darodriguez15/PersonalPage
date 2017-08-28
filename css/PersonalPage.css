@@ -1,0 +1,36 @@
+h1 {color:white;   }
+
+.smallButton
+{
+	size: 5%;
+}
+#mainNav {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background: #2C3E50; 
+   padding: 20px 10px 20px 10px;
+}
+ #mainNav .navbar-nav li.nav-item a.nav-link  {
+      color: white; }
+
+      #welcome
+      {
+      	color:white;
+
+      }
+
+      .jumbotron
+      {		border: 5px solid rgba(0, 0, 0, 0.3);
+			background: white; 
+      }
+
+      .img-fluid
+      {
+      	display:block;
+      	margin: auto;
+      	padding-top: 50px;
+      	width: 25%;
+      	height: 25%;
+      }
