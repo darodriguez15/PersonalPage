@@ -4,7 +4,7 @@ h1 {color:white;   }
 {
 	size: 5%;
 }
-#mainNav {
+.navbar .navbar-default .navbar-fixed-top {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -18,11 +18,15 @@ h1 {color:white;   }
       #welcome
       {
       	color:white;
+      	size: 50px
 
       }
 
       .jumbotron
-      {		border: 5px solid rgba(0, 0, 0, 0.3);
+      {		padding-top: 90px;
+      		display: flex;
+  			align-items: center;
+  			border: 5px solid rgba(0, 0, 0, 0.3);
 			background: white; 
       }
 
@@ -30,7 +34,10 @@ h1 {color:white;   }
       {
       	display:block;
       	margin: auto;
-      	padding-top: 50px;
+      	padding-top: 1px;
       	width: 25%;
       	height: 25%;
+      	border-radius: 65px;
+      	border: 1px solid rgba(0, 0, 0, 0.3);
+
       }
