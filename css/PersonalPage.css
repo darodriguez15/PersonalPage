@@ -54,11 +54,16 @@ h1 {color:white;   }
       	display:block;
       	margin: auto;
       	padding-top: 1px;
-      	width: 90%;
-      	height: 90%;
+      	width: 60%;
+      	height: 60%;
       	border-radius: 50px;
       	border: 1px solid rgba(0, 0, 0, 0.3);
       }
+
       nav.navbar {
     background-color: #CC1414;
+}
+.description {
+	text-align: justify;
+	font-size: 20px;
 }
