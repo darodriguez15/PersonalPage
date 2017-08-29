@@ -53,11 +53,12 @@ h1 {color:white;   }
       	
       	display:block;
       	margin: auto;
-      	padding-top: 1px;
+      	padding-top: 25px;
       	width: 60%;
       	height: 60%;
       	border-radius: 50px;
-      	border: 1px solid rgba(0, 0, 0, 0.3);
+      	border: 0px solid rgba(0, 0, 0, 0.3);
+      	border: 0px solid rgba(0, 0, 0, 0.3);
       }
 
       nav.navbar {
@@ -67,3 +68,43 @@ h1 {color:white;   }
 	text-align: justify;
 	font-size: 20px;
 }
+.proyectsImages
+{
+	display:block;
+      	margin: auto;
+      	padding-top: 1px;
+      	width:  200px;
+      	height: 223px;
+      	border-radius: 35px;
+      	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.proyectButton
+{
+	display:block;
+      	margin: auto;
+      	padding-top: 1px;
+      	width: 45%;
+      	border-radius: 65px;
+      	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+#sgh
+{
+	border: 0px solid rgba(0, 0, 0, 0.3);
+}
+#proyectos
+{
+	background:white;
+}
+p
+{
+	text-align: justify;
+	font-size: 20px;
+}
+.pro
+{
+	  
+		
+  
+  background-color: white; 
+}
+
