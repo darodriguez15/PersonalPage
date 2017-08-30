@@ -12,7 +12,7 @@
 	<!-- bootstap -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
@@ -69,44 +69,72 @@
 		
 	</section>
 	
-	<br><br><br>
+	
     <!--About-->
- 
-    <section class="container" id="about">
+ 	<section class="jumbotron a" id="about" style=" padding-top: 0px; padding-bottom: 0px">
+ 		<div class="container">
+ 			<h2 class="blanco">Acerca de mi</h2>
+ 		</div>
+ 	</section>
+    <section class="container">
     	<div class="row">
-    		<h2>Acerca de mi</h2>
+    		
     		<br><br>
     		<figure class="col-sm-6">
-    			<p class="description">Soy Diego Andrés Rodriíguez Rubio, nací en Bogotá el 7 de septiembre de 1996. Estudie en el colegio nuestra señora de la presentación centro en donde curse desde kínder hasta undécimo grado. Actualmente soy estudiante de Ingeniería de sistemas de la universidad de los andes desde el año 2014. Hago doble programa con ingeniería industrial, me gusta mucho la computación visual, la arquitectura empresarial, las matemáticas financieras y la economía.	Me encantan los deportes, en particular el futbol y el tenis</p>
+    			<p class="description">Soy Diego Andrés Rodríguez Rubio, nací en Bogotá el 7 de septiembre de 1996. Estudie en el colegio Nuestra Señora de la Presentación Centro en donde curse desde kínder hasta undécimo grado. Actualmente soy estudiante de Ingeniería de sistemas de la Universidad de los Andes desde el año 2014. Hago doble programa con ingeniería industrial, me gusta mucho la computación visual, la arquitectura empresarial, las matemáticas financieras y la economía.	Me encantan los deportes, en particular el futbol y el tenis.</p>
     			<br>
     		</figure>
     		<figure class="col-sm-6">
-    			<img src="./images/uniandes.jpg" alt="" id="ft">
+    			
+    			<ul class="description">Habilidades en:
+    				<li>Java</li>
+    				<li>Sql</li>
+    				<li>Mosel</li>
+    				<li>BPMN</li>
+    				<li>Html</li>
+    				<li>Css</li>	
+    				<li>JavaScript</li>
+
+    			</ul>
+    			
     		</figure>
+    		<div class="row"></div>
+    		<figure class="col-sm-4">
+    		</figure>
+    		<figure class="col-sm-12">
+    			
+    			
+    			<img src="./images/sis.png" alt="" id="ft">
+    		</figure>
+    		
+    		
+    		
     	</div>
     </section>
 <br><br><br><br><br>
 
 	<!--proyectos-->
-	<section class="container" id="proyectos">
-		<div class="row">
-			<h2>Proyectos Realizados</h2>
-			
-			 <div class="container marketing">
- <br><br>
-      <!-- Three columns of text below the carousel -->
+	<section class="jumbotron a" id="proyectos" style=" padding-top: 0px; padding-bottom: 0px">
+ 		<div class="container">
+ 			<h2 class="blanco">Proyectos Realizados</h2>
+ 		</div>
+ 	</section>
+	<section class="container">
+		    
       <div class="row">
-		
+			<br>
 			<div class="col-lg-5"><!--PMC-->
-			<div class="pro">
+			<div class="pro" id="Recomiendanos">
           <img class="img-circle proyectsImages" src="./images/twitter.jpg" alt="Generic placeholder image" width="200" height="200">
-          <h2>Recomiendanos</h2>
+          <h2>Trend Finder</h2>
 		  <br>
-          <p id="IdRecomiendanos" class="">Recomiéndanos es una herramienta que nos permite localizar tendencias por medio de los datos obtenidos de twitter. Después de la fase de obtención de los datos procedemos al procesamiento de los mismos y a realizar filtros para garantizar la integridad de los datos, una vez terminado este proceso, podemos localizar tendencias en un mapa, lo que puede ser muy útil a la hora de la toma de decisiones de negocio  </p>
+          <p id="IdRecomiendanos">Trend Finder es una herramienta que nos permite localizar tendencias por medio de los datos obtenidos de twitter. Después de la fase de obtención de los datos procedemos al procesamiento de los mismos y a realizar filtros para garantizar la integridad de los datos, una vez terminado este proceso, podemos localizar tendencias en un mapa, lo que puede ser muy útil a la hora de la toma de decisiones de negocio  </p>
           <br>
-		  <input class="btn btn-default proyectButton" type="button" value="Ver Descripcion" onClick="document.getElementById("IdRecomiendanos").className = "svisible"> 
-			
-		  <br><p><a class="btn btn-default proyectButton" href="https://github.com/darodriguez15/PMC" target="_blank"  role="button">Ver código &raquo;</a></p>
+		 
+		<a class="btn btn-default 	proyectButton	" role="button" id="recoboton">Ver descripcion &raquo;</a>
+		  <br>
+		  <a class="btn btn-default proyectButton" href="https://github.com/darodriguez15/PMC" target="_blank"  role="button">Ver código &raquo;</a>
+		  <br>
 		  </div>
 			</div>
 		<!-- /.col-lg-4 -->
@@ -116,19 +144,22 @@
           <img class="img-circle proyectsImages"  src="./images/oil.jpg" alt="Generic placeholder image" width="200" height="200">
           <h2>OILCOL</h2>
 		  <br>
-          <p>Oilcol es un sistema que nos ayuda con la administración y gestión de pozos de petróleo. Nos permite controlar la producción, el estado de los pozos y en caso de que se requiera nos permite enviar una alerta para informar una emergencia en el pozo. Oilcol usa IOT por medio de sensores para alertar las emergencias basándose en la temperatura y presión del pozo</p>
-          <br><p><a class="btn btn-default proyectButton" href="https://github.com/darodriguez15/OilCol" target="_blank" role="button">Ver código &raquo;</a></p>
+          <p id="idoilcol">Oilcol es un sistema que nos ayuda con la administración y gestión de pozos de petróleo. Nos permite controlar la producción, el estado de los pozos y en caso de que se requiera nos permite enviar una alerta para informar una emergencia en el pozo. Oilcol usa IOT por medio de sensores para alertar las emergencias basándose en la temperatura y presión del pozo</p>
+          <br>
+			<a class="btn btn-default 	proyectButton	" role="button" id="oilboton">Ver descripcion &raquo;</a><br>
+          <p><a class="btn btn-default proyectButton" href="https://github.com/darodriguez15/OilCol" target="_blank" role="button">Ver código &raquo;</a></p><br>
         </div><!-- /.col-lg-4 -->
 		</div><!-- /.row -->
 		<br><br>
 		<div class="row">
+		<br>
 	   <div class="col-lg-5"><!--SGH-->
           <img class="img-circle proyectsImages"  src="./images/sgh.png" alt="Generic placeholder image" width="200" height="200" id="sgh">
           <h2>SGH</h2>
 		  <br><br>
-          <p>SGH es un sistema de gestión hospitalaria, en donde podemos tener control de nuestros médicos, pacientes, consultorios y citas.  .</p>
-<br>         
-		 <p><a class="btn btn-default proyectButton" href="https://github.com/csw-archive/myso-main-repository" target="_blank" role="button">Ver código &raquo;</a></p>
+          <p id="idsgh">SGH es un sistema de gestión hospitalaria, en donde podemos tener control de nuestros médicos, pacientes, consultorios y citas.  .</p>
+<br>        <a class="btn btn-default 	proyectButton	" role="button" id="sghboton">Ver descripcion &raquo;</a><br> 
+		 <br><p><a class="btn btn-default proyectButton" href="https://github.com/csw-archive/myso-main-repository" target="_blank" role="button">Ver código &raquo;</a></p><br>
         </div><!-- /.col-lg-4 -->
 		<div class="col-lg-2">
 		</div> <!--separador-->
@@ -136,12 +167,55 @@
           <img class="img-circle proyectsImages" src="./images/puerto.jpg" alt="Generic placeholder image" width="200" height="200">
           <h2>Puertos</h2>
 		  <br>
-          <p>Puertos es una herramienta creada para gestionar todas las actividades relacionadas con un puerto marítimo.  Podemos tener control sobre los barcos que ingresan y salen del puerto, además de poder hacer seguimiento a las cargas desde el momento de su llegada al puerto hasta el momento de la entrega al cliente final. </p>
-          <p><a class="btn btn-default proyectButton" href="https://github.com/jcgomez18/Sistrans" target ="_blank" role="button">Ver código &raquo;</a></p>
+          <p id="idpuerto">Puertos es una herramienta creada para gestionar todas las actividades relacionadas con un puerto marítimo.  Podemos tener control sobre los barcos que ingresan y salen del puerto, además de poder hacer seguimiento a las cargas desde el momento de su llegada al puerto hasta el momento de la entrega al cliente final. </p>
+          <br>
+          <a class="btn btn-default 	proyectButton	" role="button" id="puboton">Ver descripcion &raquo;</a><br>
+          <br><p><a class="btn btn-default proyectButton" href="https://github.com/jcgomez18/Sistrans" target ="_blank" role="button">Ver código &raquo;</a></p><br>
         </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 		</div>
 	</section>
+
+	<br><br><br><br>
+
+	<!--footer-->
+
+	<!-- Footer -->
+
+	
+
+    <footer class="text-center">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+
+            <div class="footer-col col-md-4">
+              
+            </div>
+            <div class="footer-col col-md-4">
+              <h3>Contacto</h3>
+              <ul class="list-inline">
+			<li>
+				<a href="https://www.facebook.com/diegor432" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+			</li>
+			<li> <a href="https://www.instagram.com/diegor432/?hl=es" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a></li>
+			<li>
+				  <a href="https://github.com/darodriguez15" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+			</li>
+			<li>
+				 <a href="https://twitter.com/DiegoAR432" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
+			</li>
+		</ul>
+            </div>
+            <div class="footer-col col-md-4">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer> 
+
 	<!-- Jquery -->
 
 	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>

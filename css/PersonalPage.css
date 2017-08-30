@@ -4,16 +4,8 @@ h1 {color:white;   }
 {
 	size: 5%;
 }
-.navbar .navbar-default .navbar-fixed-top {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  background: #2C3E50; 
-   padding: 20px 10px 20px 10px;
-}
- #mainNav .navbar-nav li.nav-item a.nav-link  {
-      color: white; }
+
+
 
       #welcome
       {
@@ -21,13 +13,47 @@ h1 {color:white;   }
       	size: 50px
 
       }
+		footer
+		{
+			 clear:both;
+ float:left;
+ overflow:hidden;
+ width:100%;
+		}
 
+
+#redes {
+ float:left;
+ left:50%;
+ list-style-type:none;
+ margin:0 auto;
+ padding:0;
+ position:relative;
+}
+
+#redes li {
+ float:left;
+ position:relative;
+ right:50%;
+}
+.blanco
+{
+	color:white;
+}
       .jumbotron
       {		padding-top: 90px;
       		display: flex;
   			align-items: center;
   			border: 5px solid rgba(0, 0, 0, 0.3);
 			background: #18bc9c; 
+      }
+      .jumbotron .a
+      {
+      		padding:0px;
+      		display: flex;
+  			align-items: center;
+  			border: 5px solid rgba(0, 0, 0, 0.3);
+			background: #18bc9c;
       }
 
       .img-fluid
@@ -45,7 +71,7 @@ h1 {color:white;   }
       	color: white;
       	
       }
-      h2{
+      h2, h3, ul , li{
       	text-align: center;
       }
       #ft
@@ -54,8 +80,8 @@ h1 {color:white;   }
       	display:block;
       	margin: auto;
       	padding-top: 25px;
-      	width: 60%;
-      	height: 60%;
+      	width: 65%;
+      	height: 65%;
       	border-radius: 50px;
       	border: 0px solid rgba(0, 0, 0, 0.3);
       	border: 0px solid rgba(0, 0, 0, 0.3);
@@ -80,7 +106,7 @@ h1 {color:white;   }
 }
 .proyectButton
 {
-	display:block;
+	    display:block;
       	margin: auto;
       	padding-top: 1px;
       	width: 45%;
@@ -91,10 +117,7 @@ h1 {color:white;   }
 {
 	border: 0px solid rgba(0, 0, 0, 0.3);
 }
-#proyectos
-{
-	background:white;
-}
+
 p
 {
 	text-align: justify;
@@ -111,4 +134,103 @@ p
 	text-align: justify;
 	font-size: 20px;
 	
+}
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-facebook:hover
+{
+    background-color: #4c70ba;
+}
+a.btn-social,
+.btn-social
+{
+    border-radius: 50%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    margin: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s;
+    webkit-transition: background-color .3s;
+    width: 54px;
+    display:inline-block
+    text-align:center
+}
+
+.btn-social .fa,.btn-social i
+{
+    backface-visibility: hidden;
+    moz-backface-visibility: hidden;
+    ms-transform: scale(1);
+    o-transform: scale(1);
+    transform: scale(1);
+    transition: all .25s;
+    webkit-backface-visibility: hidden;
+    webkit-transform: scale(1);
+    webkit-transition: all .25s;
+}
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+{
+    ms-transform: scale(1.3);
+    o-transform: scale(1.3);
+    transform: scale(1.3);
+    webkit-transform: scale(1.3);
+}
+.btn-social.btn-xs
+{
+    font-size: 9px;
+    height: 24px;
+    line-height: 13px;
+    margin: 6px 2px;
+    width: 24px;
+}
+.btn-social.btn-sm
+{
+    font-size: 13px;
+    height: 36px;
+    line-height: 18px;
+    margin: 6px 2px;
+    width: 36px;
+}
+.btn-social.btn-lg
+{
+    font-size: 22px;
+    height: 72px;
+    line-height: 40px;
+    margin: 10px 6px;
+    width: 72px;
+}
+.btn-github
+{
+    background-color: #4183c4;
+}
+.btn-github:hover
+{
+    background-color: #689cd0;
+}
+.btn-instagram
+{
+    background-color: #3f729b;
+}
+.btn-instagram:hover
+{
+    background-color: #548cb9;
+}
+.btn-twitter
+{
+    background-color: #55acee;
+}
+.btn-twitter:hover
+{
+    background-color: #83c3f3;
 }
